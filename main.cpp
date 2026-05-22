@@ -19,6 +19,7 @@ void show_menu(int mode){
             cout << "4 - Generate a report on the lessons learned.\n";
     }
 }
+
 int main(){
     setlocale(LC_ALL, "ru_RU.UTF-8");
     cout << "Введите 1 - если хотите продолжить на русском\n";
@@ -27,12 +28,19 @@ int main(){
     int mode;
     cin >> mode;
 
-    if (mode == 0){
-        show_menu(1);
+    // Используем switch-case для выбора языка
+    switch(mode) {
+        case 1:
+            show_menu(1);
+            break;
+        case 2:
+            show_menu(2);
+            break;
+        default:
+            cout << "Неверный выбор! Будет использован русский язык по умолчанию.\n";
+            show_menu(1);
+            break;
     }
-
-    else{
-        show_menu(1);
-    }
+    
     return 0;
 }
