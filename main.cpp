@@ -21,6 +21,18 @@ void show_menu(int mode){
 }
 int main(){
     setlocale(LC_ALL, "ru_RU.UTF-8");
-    show_menu(1);
+    cout << "Введите 1 - если хотите продолжить на русском\n";
+    cout << "Enter 2 if you want to continue in English.\n";
+    
+    int mode;
+    cin >> mode;
+
+    if (mode == 0){
+        show_menu(1);
+    }
+
+    else{
+        show_menu(1);
+    }
     return 0;
 }
