@@ -1,0 +1,74 @@
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build folders
+build/
+bin/
+obj/
+out/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDEs
+.idea/
+
+# Code::Blocks
+*.depend
+*.layout
+
+# CLion
+cmake-build-debug/
+cmake-build-release/
