@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void show_menu(int mode){
+int show_menu(int mode){
     // 1 - russian
     if (mode == 1){
         cout << "[--------Главное меню--------]\n";
@@ -18,6 +18,7 @@ void show_menu(int mode){
             cout << "3 - Add Student data.\n";
             cout << "4 - Generate a report on the lessons learned.\n";
     }
+    return mode;
 }
 
 int main(){
