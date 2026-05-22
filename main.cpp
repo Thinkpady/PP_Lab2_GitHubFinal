@@ -4,7 +4,7 @@ using namespace std;
 
 int show_menu(int mode){
     // 1 - russian
-    if (mode == 1){
+    if (mode == 222){ //конфликт номер 2
         cout << "[--------Главное меню--------]\n";
         cout << "1 - Посмотреть таблицу по ученикам.\n";
         cout << "2 - Добавить ученика.\n";
